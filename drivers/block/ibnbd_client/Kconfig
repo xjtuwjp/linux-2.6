@@ -1,0 +1,16 @@
+config BLK_DEV_IBNBD_CLT
+	tristate "Network block device over Infiniband client support"
+	depends on INFINIBAND_IBTRS_CLT
+	---help---
+	  Saying Y here will allow your computer to be a client for network
+	  block devices over Infiniband, i.e. it will be able to use block
+	  devices exported by
+	  servers (mount file systems on them etc.). Communication between
+	  client and server works over Infiniband networking, but to the client
+	  program this is hidden: it looks like a regular local file access to
+	  a block device special file such as /dev/ibnbd0.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called ibnbd_client.
+
+	  If unsure, say N.

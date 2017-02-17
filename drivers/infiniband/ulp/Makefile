@@ -4,3 +4,4 @@ obj-$(CONFIG_INFINIBAND_SRPT)		+= srpt/
 obj-$(CONFIG_INFINIBAND_ISER)		+= iser/
 obj-$(CONFIG_INFINIBAND_ISERT)		+= isert/
 obj-$(CONFIG_INFINIBAND_IBTRS_CLT)      += ibtrs_client/
+obj-$(CONFIG_INFINIBAND_IBTRS_SRV)      += ibtrs_server/

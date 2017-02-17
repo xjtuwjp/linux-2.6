@@ -1,0 +1,8 @@
+config INFINIBAND_IBTRS_SRV
+	tristate "InfiniBand IBTRS SERVER"
+	depends on INFINIBAND_ADDR_TRANS
+	---help---
+	  Support for the simplified data transfer over InfiniBand.
+	  This offer API to user module IBNBD_SERVER
+
+	  The IBTRS protocol is defined by the ProfitBricks GmbH.

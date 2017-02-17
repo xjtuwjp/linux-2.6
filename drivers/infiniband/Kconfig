@@ -86,6 +86,7 @@ source "drivers/infiniband/ulp/iser/Kconfig"
 source "drivers/infiniband/ulp/isert/Kconfig"
 
 source "drivers/infiniband/ulp/ibtrs_client/Kconfig"
+source "drivers/infiniband/ulp/ibtrs_server/Kconfig"
 
 source "drivers/infiniband/sw/rdmavt/Kconfig"
 source "drivers/infiniband/sw/rxe/Kconfig"

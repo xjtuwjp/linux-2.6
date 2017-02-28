@@ -6263,6 +6263,20 @@ IBM ServeRAID RAID DRIVER
 S:	Orphan
 F:	drivers/scsi/ips.*
 
+IBTRS TRANSPORT DRIVERS
+M:      Jack Wang <jinpu.wang@profitbricks.com>
+L:      linux-rdma@vger.kernel.org
+S:      Maintained
+F:      include/linux/ibtrs*.h
+F:      drivers/infiniband/ulp/ibtrs*
+
+IBNBD BLOCK DRIVERS
+M:      Jack Wang <jinpu.wang@profitbricks.com>
+L:      linux-rdma@vger.kernel.org
+S:      Maintained
+F:	Documentation/IBNBD.txt
+F:      drivers/block/ibnbd*
+
 ICH LPC AND GPIO DRIVER
 M:	Peter Tyser <ptyser@xes-inc.com>
 S:	Maintained
